@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Header Section -->
+        <TextView
+            android:id="@+id/headerTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/HeaderText"
+            android:text="Welcome to Datalogic SDK Sample App" />
+
+        <!-- Body Section -->
+        <TextView
+            android:id="@+id/textViewAppInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/BodyText"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:text="Loading app information..." />
+
+        <!-- Footer Section -->
+        <LinearLayout
+            android:id="@+id/footerSection"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/primaryColor"
+            android:gravity="center_horizontal"
+            android:padding="16dp">
+
+            <!-- Footer Image -->
+            <ImageView
+                android:id="@+id/footerImage"
+                android:layout_width="@dimen/footer_width"
+                android:layout_height="@dimen/footer_height"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/datalogic_logo"
+                android:contentDescription="@string/datalogic_company" />
+
+            <!-- Footer Text - Company Name -->
+            <TextView
+                android:id="@+id/footerTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/FooterText"
+                android:textColor="@color/brand_outline"
+                android:text="@string/datalogic_company" />
+
+            <!-- Footer Link - Website -->
+            <TextView
+                android:id="@+id/footerLink"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                style="@style/FooterText"
+                android:textColor="@color/brand_accent"
+                android:text="@string/datalogic_website" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

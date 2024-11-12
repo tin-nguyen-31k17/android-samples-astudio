@@ -1,0 +1,16 @@
+<resources>
+    <color name="primaryColor">#1f2c7a</color>
+    <color name="primaryVariant">#031E8A</color>
+    <color name="secondaryColor">#808080</color>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="brand_primary">#002596</color>
+    <color name="brand_secondary">#48f</color>
+    <color name="brand_accent">#26e</color>
+    <color name="brand_outline">#ffffff</color>
+    <color name="brand_shadow">#888888</color>
+    <color name="brand_background">#002596</color>
+</resources>

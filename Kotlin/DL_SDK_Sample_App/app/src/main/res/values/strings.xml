@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Datalog SDK Sample App</string>
+    <string name="date_dd_mm_yyyy">Date (dd/mm/yyyy)</string>
+    <string name="set_date">Set Date</string>
+    <string name="datalogic_company">Datalogic S.p.A.</string>
+    <string name="datalogic_website">http://www.datalogic.com</string>
+    <string name="app_info">Datalogic SDK Sample App</string>
+    <string name="app_description">This application provides a template for developers using the Datalogic SDK. It includes examples of barcode scanning functionality and placeholders for additional SDK features.</string>
+</resources>
