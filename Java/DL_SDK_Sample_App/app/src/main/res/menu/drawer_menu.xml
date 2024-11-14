@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <!-- Home -->
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <!-- Configuration Features -->
+        <item
+            android:id="@+id/nav_configure_properties"
+            android:icon="@drawable/ic_settings"
+            android:title="Configure Properties" />
+
+        <item
+            android:id="@+id/nav_configure_intent"
+            android:icon="@drawable/ic_intent"
+            android:title="Configure via Intent" />
+
+        <item
+            android:id="@+id/nav_config_change_notification"
+            android:icon="@drawable/ic_notifications"
+            android:title="Config Change Notification" />
+
+        <item
+            android:id="@+id/nav_usb_whitelisting"
+            android:icon="@drawable/ic_usb"
+            android:title="USB Whitelisting" />
+
+        <item
+            android:id="@+id/nav_bluetooth_silent_pairing"
+            android:icon="@drawable/ic_bluetooth"
+            android:title="Bluetooth Silent Pairing" />
+
+        <item
+            android:id="@+id/nav_change_device_name"
+            android:icon="@drawable/ic_device"
+            android:title="Change Device Name" />
+
+        <!-- Additional features can be added here -->
+
+    </group>
+</menu>

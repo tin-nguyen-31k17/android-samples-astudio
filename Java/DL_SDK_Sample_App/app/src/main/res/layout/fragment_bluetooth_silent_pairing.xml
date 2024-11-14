@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewBluetoothSilentPairing"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <!-- Single Direct Child of ScrollView -->
+    <LinearLayout
+        android:id="@+id/linearLayoutBtSilentPairing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header Text -->
+        <TextView
+            android:id="@+id/textViewBtHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth Silent Pairing Settings"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Property Inputs -->
+        <LinearLayout
+            android:id="@+id/linearLayoutBtProperties"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Property input views will be added dynamically in BluetoothSilentPairingFragment.kt -->
+        </LinearLayout>
+
+        <!-- Apply Button -->
+        <Button
+            android:id="@+id/buttonApplyBtSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply Settings"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

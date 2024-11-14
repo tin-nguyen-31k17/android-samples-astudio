@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollViewChangeDeviceName"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayoutChangeDeviceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Header Text -->
+        <TextView
+            android:id="@+id/textViewChangeDeviceNameHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Device Name Suffix"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- EditText for Device Name Suffix -->
+        <EditText
+            android:id="@+id/editTextDeviceNameSuffix"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Device Name Suffix"
+            android:inputType="text"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Apply Button -->
+        <Button
+            android:id="@+id/buttonApplyDeviceName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apply Changes" />
+
+    </LinearLayout>
+</ScrollView>
